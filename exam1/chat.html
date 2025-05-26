@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styl.css" />
+    <title>Chat</title>
+  </head>
+  <body>
+    <header>
+      <h2>Chat</h2>
+    </header>
+    <section class="sidebar">
+      <h3>Chat</h3>
+      <ul>
+        <li>Ogólny</li>
+        <li>
+          Tematyczny
+          <ol>
+            <li>Turystyczny</li>
+            <li>Żeglarski</li>
+            <li>Filatelistyczny</li>
+            <li>Hodowla zwierzątek domowych</li>
+          </ol>
+        </li>
+      </ul>
+      <h3>Uczestnicy</h3>
+      <p>Jolanta Nowak</p>
+      <img src="./Jolka.jpg" alt="Jolanta Nowak" />
+      <p>Krzysztof Łukasiński</p>
+      <img src="./Krzysiek.jpg" alt="Krzysztof Łukasińsk" />
+    </section>
+
+    <section class="main">
+      <div class="chat">
+        <div class="messageOne">
+          <img src="./Jolka.jpg" alt="" />
+          <p>Cześć idziesz jutro do kina?</p>
+        </div>
+        <div class="messageTwo">
+          <img src="./Krzysiek.jpg" alt="" />
+          <p>Tak! A ty?</p>
+        </div>
+      </div>
+
+      <label for="sendMessage">Wpisz wiadomość:</label>
+      <input type="text" name="sendMessage" id="sendMessage" class="input" />
+      <button type="button" class="sendBtn">Wyślij</button> <br />
+      <button type="button" class="randBtn">Generuj losową odpowiedź</button>
+    </section>
+
+    <footer>
+      <h5>Chat wykonał: 0000000000000</h5>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
