@@ -1,0 +1,65 @@
+* {
+  font-family: Roboto, Serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: Crimson;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 5px;
+  word-spacing: 30px;
+  padding: 10px;
+}
+
+header,
+footer {
+  clear: both;
+}
+
+.firstBlock {
+  background-color: MistyRose;
+  height: 300px;
+  padding: 10px;
+  margin: 10px 50px;
+  border: 1px solid Crimson;
+  img {
+    float: left;
+    height: 100%;
+  }
+}
+
+.block {
+  background-color: Snow;
+  height: 450px;
+  width: 21%;
+  margin: 1%;
+  text-align: center;
+  border: 1px solid Crimson;
+}
+
+footer {
+  background-color: crimson;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+h4 {
+  font-size: 180%;
+  text-align: center;
+  color: crimson;
+}
+
+a {
+  color: #fff;
+}
