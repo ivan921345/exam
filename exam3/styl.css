@@ -1,0 +1,90 @@
+* {
+  font-family: Cambria;
+}
+
+body {
+  background-color: Linen;
+}
+
+.sidebar,
+header,
+footer {
+  background-color: SteelBlue;
+  color: #fff;
+  text-align: center;
+}
+
+.sidebar {
+  width: 25%;
+  height: 510px;
+  margin: 0px 1%;
+  box-shadow: 4px 4px 5px DimGray;
+}
+
+header {
+  width: 73%;
+  height: 80px;
+}
+
+main {
+  width: 73%;
+  height: 400px;
+}
+
+button {
+  background-color: SteelBlue;
+  color: #fff;
+  width: 20%;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 130%;
+  border: none;
+}
+
+button:hover {
+  background-color: Navy;
+}
+
+.controls {
+  background-color: LightBlue;
+  margin: 80px;
+  padding: 10px;
+  display: none;
+}
+
+.firstCtrl {
+  display: block;
+}
+
+.stepInside {
+  background-color: navy;
+  width: 4%;
+  height: 30px;
+  margin: 100px 0px;
+  float: left;
+}
+
+table {
+  width: 100%;
+  border: 1px dotted navy;
+}
+
+header {
+  float: right;
+}
+
+footer {
+  clear: both;
+}
+
+.sidebar {
+  float: left;
+}
+
+.hideCtrl {
+  display: none;
+}
+
+.showCtrl {
+  display: block;
+}

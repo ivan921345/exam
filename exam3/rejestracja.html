@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sklep - rejestracja</title>
+    <link rel="stylesheet" href="./styl.css" />
+  </head>
+  <body>
+    <section class="sidebar">
+      <img src="./obraz.png" alt="promocje" />
+      <h2>Sprawdź promocje</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>co?</th>
+            <th>ile taniej</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>ubrania</td>
+            <td>15%</td>
+          </tr>
+
+          <tr>
+            <td>buty</td>
+            <td>25%</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <header>
+      <h1>Zarejestruj się w sklepie</h1>
+    </header>
+
+    <main>
+      <button type="button" value="client">Klient</button>
+      <button type="button" value="adress">Adres</button>
+      <button type="button" value="contact">Kontakt</button>
+      <div class="controls firstCtrl">
+        <p>Imie</p>
+        <input type="text" name="name" id="name" placeholder="Wpisz dane..." />
+        <p>Nazwisko</p>
+        <input type="text" name="surname" id="surname" />
+        <p>Data urodzenia</p>
+        <input type="date" name="burthDate" id="burthDate" />
+      </div>
+
+      <div class="controls secondCtrl">
+        <p>Ulica</p>
+        <input type="text" name="name" id="name" placeholder="Wpisz dane..." />
+        <p>Numer</p>
+        <input type="number" name="number" id="number" />
+        <p>Miasto</p>
+        <input type="date" name="city" id="city" />
+      </div>
+
+      <div class="controls thirdCtrl">
+        <p>Numer komorkowy</p>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Wpisz dane..."
+        /><br />
+        <input type="checkbox" name="accept" id="accept" />
+        <label for="accept">Akceptuję RODO</label>
+        <br />
+        <button class="confirm">Zatwierdz dane</button>
+      </div>
+    </main>
+
+    <section class="step">
+      <section class="stepInside"></section>
+    </section>
+
+    <footer>
+      <h4>Rejestrację do sklepu wykonał: 00000000000000000</h4>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
